@@ -22,7 +22,7 @@ int main(){
 	
 	if(c > max){
 		max = c;
-	}
-	return max;
-	printf("max = ", max);
+		return max;
+	}printf("max = %d", max);
+	
 }
