@@ -1,8 +1,5 @@
 #include<stdio.h>
 #include<math.h>
-#include <iostream>
-
-
 int main(){
 	
 	int month;
@@ -15,12 +12,13 @@ int main(){
 	int dem;
 	
 	if( month <= 12 && month > 0 &&  day <= 31 && day> 0){
-	 if(month == 1){
+
+	if(month == 1){
 	    dem = day;
 		printf("ngay thang vua nhap la ngay thu : %d" , dem);
 
 	}
-	if(month == 2){
+	if(month == 2 && day <= 28){
 	    dem = day + 31;
 		printf("ngay thang vua nhap la ngay thu : %d" , dem);
 
