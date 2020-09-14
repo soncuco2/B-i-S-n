@@ -12,6 +12,9 @@ int main(){
 	scanf("%d", &b);
 	
 	if(a >= b){
+		if(b == 0){
+			printf("gia tri vua nhap khong hop le");
+		}
 		printf("%d", a/b);
 	}else if(a <= b){
 		printf("%d", a*b);
