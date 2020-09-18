@@ -13,7 +13,7 @@ int main(){
             count++;
         }
     }
-    if(count == 0){
+    if(count == 2){
         printf("\n%d la so nguyen to", n);
     }else{
         printf("\n%d khong phai so nguyen to", n);
