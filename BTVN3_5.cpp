@@ -3,7 +3,7 @@
  
 int main(){
     int n;
-    printf("\nNhap n = ");
+    printf("Nhap n = ");
     scanf("%d", &n);
     if(n < 2){
         printf("\n%d khong phai so nguyen to", n);    }
