@@ -12,9 +12,11 @@ int main(){
 	int max = 0;
 	for(int i = 0; i < n; i++){
 		    soduong ++;
-		    if(arr[i] < 0 || i == n -1 && soduong > max){
-		        max = soduong;
-		        soduong = 0;
+		    if((arr[i] < 0 || i == n -1 )&& soduong > max){
+		        if(max > soduong){
+				max = soduong;
 		}
-	}printf("so luong so duong lien tiep nhieu nhat la :%d", max);
+		        soduong = 0;
+	}
+	}printf("%d", max);
 }
