@@ -16,5 +16,5 @@ int main(){
 		        max = soduong;
 		        soduong = 0;
 		}
-	}printf("%d", max);
+	}printf("so luong so duong lien tiep nhieu nhat la :%d", max);
 }
