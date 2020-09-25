@@ -16,8 +16,8 @@ int main(){
 	printf("Nhap vao so n :");
 	scanf("%d", &n);
 	if (songuyento(n)) {
-           printf(n + " la so nguyen to", n);
+           printf("\n la so nguyen to");
        } else {
-           printf(n + " %d khong phai so nguyen to", n);
-    }
+           printf("\n khong phai la so nguyen to ");
+       }
 }
