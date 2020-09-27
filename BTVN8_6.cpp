@@ -1,7 +1,5 @@
 #include<iostream>
 #include <math.h>
-using namespace std;
- 
 int BCNN(int a, int b){
     // N?u a = 0 => ucln(a,b) = b
     // N?u b = 0 => ucln(a,b) = a
@@ -15,7 +13,7 @@ int BCNN(int a, int b){
             b -= a;
         }
     }
-    return a; // return a or b, b?i vì lúc này a và b b?ng nhau
+    return a; // return a or b, b?i vÃ¬ lÃºc nÃ y a vÃ  b b?ng nhau
 }
  
 int main(){
